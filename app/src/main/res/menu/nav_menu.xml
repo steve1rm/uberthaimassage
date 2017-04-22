@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/muTaxi"
+            android:icon="@drawable/ic_directions_car_black_24dp"
+            android:title="Taxis" />
+
+        <item
+            android:id="@+id/muAvailable"
+            android:icon="@drawable/ic_local_taxi_black_24dp"
+            android:title="Available Taxis" />
+
+        <item
+            android:id="@+id/muDisplay"
+            android:icon="@drawable/ic_transfer_within_a_station_black_24dp"
+            android:title="Display Taxis" />
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/muNormal"
+            android:icon="@drawable/ic_aspect_ratio_black_24dp"
+            android:title="Normal" />
+        <item
+            android:id="@+id/muHybrid"
+            android:icon="@drawable/ic_panorama_black_24dp"
+            android:title="Hybrid" />
+        <item
+            android:id="@+id/muSatellite"
+            android:icon="@drawable/ic_satellite_black_24dp"
+            android:title="Satellite" />
+
+        <item
+            android:id="@+id/muTerrain"
+            android:icon="@drawable/ic_terrain_black_24dp"
+            android:title="Terrain" />
+
+        <item
+            android:id="@+id/muNone"
+            android:icon="@drawable/ic_art_track_black_24dp"
+            android:title="None" />
+    </group>
+
+</menu>

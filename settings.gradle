@@ -1,0 +1,2 @@
+include ':MyMapApp'
+project(':MyMapApp').projectDir = new File('app')
